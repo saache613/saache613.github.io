@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center
+
 }
 
 .profile {
@@ -13,13 +15,13 @@ body {
 
     position: absolute;
     height: 800px;
-    color: #FFFFFF;
+    color: #d00000;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
     opacity: 0.83;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    background: #ffba08;
     display: table;
     width: 100%;
     height: 100%;
@@ -101,6 +103,7 @@ p {
     padding-bottom: 5px;
     font-family:fantasy;
     font-size: 20px
+    text-align:center;
 }
 
 
@@ -108,14 +111,28 @@ p {
 .links:hover {
     background-color:dodgerblue;
 }
-a{
-    text-decoration: none;
-    
+
+#my inspiration{
+    text-align: center;
 }
-.article:hover {
-    color: aqua;
-    
+
+h2{
+    font-weight: bold;
 }
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+iframe{
+    text-align: center
+}
+
+
 html{
     scroll-behavior: smooth;
+}
+img{
+    height: 100;
+    width: 100;
 }
